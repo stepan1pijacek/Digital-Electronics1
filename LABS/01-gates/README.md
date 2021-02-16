@@ -1,6 +1,7 @@
 <h1>LABS01 gates</h1>
 
 <h2>1. Verification of De Morgan's laws</h2>
+<h3> VHDL implementation</h3>
 
 ```vhdl
 architecture dataflow of gates is
@@ -26,7 +27,10 @@ end architecture dataflow;
 | 1 | 1 | 0 | 0 |
 | 1 | 1 | 1 | 0 |
 
+### Time waveforms
+![De Morgans laws] (images/deMoragnsLawWF)
+
 ### Link to EDA playground
 https://www.edaplayground.com/x/sjDZ
 
-## Verfication of Distributive laws
+<h2> Verfication of Distributive laws </h2>
