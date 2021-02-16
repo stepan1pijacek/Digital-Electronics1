@@ -1,11 +1,12 @@
-<h1>LABS01 gates</h1>
+# LABS01 gates
 
-<h2>1. Verification of De Morgan's laws</h2>
-<h3>Equations</h3>
-f(c, b, a) = !b * a + !c * !b <br />
-f(c, b, a)NAND = !(!(!b * a) * !(!b * !c)) <br />
-f(c, b, a)NOR = !(b + !a) + !(c + b) <br />
-<h3> VHDL implementation</h3>
+## 1. Verification of De Morgan's laws
+
+### Equations
+f(c, b, a) = !b * a + !c * !b<br />
+f(c, b, a)NAND = !(!(!b * a) * !(!b * !c))<br />
+f(c, b, a)NOR = !(b + !a) + !(c + b)<br />
+### VHDL implementation
 
 ```vhdl
 architecture dataflow of gates is
@@ -37,12 +38,12 @@ end architecture dataflow;
 ### Link to EDA playground
 https://www.edaplayground.com/x/sjDZ
 
-<h2>2. Verfication of Distributive laws </h2>
+## 2. Verfication of Distributive laws 
 <br />
 <h3> Equations </h3>
 x*y + x*z = x*(y + z) <br />
 (x + y)*(x + z) = x + (y*z) <br />
-<h3>VHDL implementation</h3>
+### VHDL implementation
 <br />
 
 ```vhdl
@@ -54,8 +55,9 @@ begin
     f3_o <= a_i or (b_i and c_i);
 end architecture dataflow;
 ```
-<h3>Time waveforms</h3>
+### Time waveforms
+
 ![Distribution laws](https://github.com/stepan1pijacek/Digital-Electronics1/blob/main/LABS/01-gates/images/distributionLaws.png)
 
-<h3> Link to EDA playground </h3>
+### Link to EDA playground 
 https://www.edaplayground.com/x/mbre
