@@ -33,4 +33,21 @@ end architecture dataflow;
 ### Link to EDA playground
 https://www.edaplayground.com/x/sjDZ
 
-<h2> Verfication of Distributive laws </h2>
+<h2>2. Verfication of Distributive laws </h2>
+<br />
+<h3>VHDL implementation</h3>
+<br />
+
+```vhdl
+architecture dataflow of gates is
+begin
+    f0_o <= (a_i and b_i) or (a_i and c_i);
+    f1_o <= a_i and (b_i or c_i);
+    f2_o <= (a_i or b_i) and (a_i or c_i);
+    f3_o <= a_i or (b_i and c_i);
+end architecture dataflow;
+```
+<h3>Time waveforms</h3>
+
+<h3> Link to EDA playground </h3>
+https://www.edaplayground.com/x/mbre
