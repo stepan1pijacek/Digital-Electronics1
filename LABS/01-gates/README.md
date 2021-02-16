@@ -28,7 +28,7 @@ end architecture dataflow;
 | 1 | 1 | 1 | 0 |
 
 ### Time waveforms
-![De Morgans laws] (images/deMoragnsLawWF)
+![De Morgans laws] (images/deMoragnsLawWF.png)
 
 ### Link to EDA playground
 https://www.edaplayground.com/x/sjDZ
