@@ -1,5 +1,7 @@
 # DE1 LABS 02-logic
 
+# 1. 2 bit comparator
+
 ## Prepration done at home
 
 | **Dec. equivalent** | **B[1:0]** | **A[1:0]** | **B is greater than A** | **B equals A** | **B is less than A** |
@@ -21,3 +23,42 @@
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 
+## Logic function minimization
+![B is equal to A](https://github.com/stepan1pijacek/Digital-Electronics1/blob/main/LABS/02-logic/images/bEqualsA.png) <br />
+![B is greater then A](https://github.com/stepan1pijacek/Digital-Electronics1/blob/main/LABS/02-logic/images/bIsGreaterThenA.png) <br />
+![B is less then A](https://github.com/stepan1pijacek/Digital-Electronics1/blob/main/LABS/02-logic/images/bIsLessThenA.png)
+
+## VHDL implementation
+
+```vhdl
+architecture Behavioral of comparator_2bit is
+begin
+    B_greater_A_o <= '1' when (b_i > a_i) else '0';
+    B_equals_A_o  <= '1' when (b_i = a_i) else '0';
+    B_less_A_o    <= '1' when (b_i < a_i) else '0';
+
+end architecture Behavioral;
+```
+
+## EDA playground link
+https://www.edaplayground.com/x/mLVD
+
+
+# 2. 4 bit comparator
+
+# VHDL implementation 
+
+```vhdl
+architecture Behavioral of comparator_4bit is
+begin
+    B_greater_A_o <= '1' when (b_i > a_i) else '0';
+    B_equals_A_o  <= '1' when (b_i = a_i) else '0';
+    B_less_A_o    <= '1' when (b_i < a_i) else '0';
+
+
+end architecture Behavioral;
+```
+
+
+## EDA playground link
+https://www.edaplayground.com/x/8T6h
