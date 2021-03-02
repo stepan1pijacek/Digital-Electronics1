@@ -70,3 +70,6 @@ begin
     wait;
 end process p_stimulus;
 ```
+## Screenshot of the simulation
+
+![MUX 2bit 4to1 simulation](https://github.com/stepan1pijacek/Digital-Electronics1/blob/main/LABS/03-vivado/images/simulationSceenshot.png)
