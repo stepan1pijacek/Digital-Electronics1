@@ -77,3 +77,49 @@ end process p_stimulus;
 
 
 # VIVADO tutorial
+
+## 1. create new project
+![first step](https://github.com/stepan1pijacek/Digital-Electronics1/blob/main/LABS/03-vivado/images/1.png)
+
+![second step](https://github.com/stepan1pijacek/Digital-Electronics1/blob/main/LABS/03-vivado/images/2.png)
+
+Assign project your desired name
+![third step](https://github.com/stepan1pijacek/Digital-Electronics1/blob/main/LABS/03-vivado/images/3.png)
+
+Select type of project
+![fourth step](https://github.com/stepan1pijacek/Digital-Electronics1/blob/main/LABS/03-vivado/images/4.png)
+
+Create a new source file for your project
+![fifth step](https://github.com/stepan1pijacek/Digital-Electronics1/blob/main/LABS/03-vivado/images/5_0.png)
+![fifth step](https://github.com/stepan1pijacek/Digital-Electronics1/blob/main/LABS/03-vivado/images/5_1.png)
+
+You can skip adding constraints as this is optional
+![sixth stpe](https://github.com/stepan1pijacek/Digital-Electronics1/blob/main/LABS/03-vivado/images/6.png)
+
+Now you need to add board to your project we are going to choose Nexys A7-50T
+![seventh step](https://github.com/stepan1pijacek/Digital-Electronics1/blob/main/LABS/03-vivado/images/7.png)
+After this step this is how your screen should look like
+![eigth step](https://github.com/stepan1pijacek/Digital-Electronics1/blob/main/LABS/03-vivado/images/8.png)
+
+
+After clicking finish you will have to wait for a bit but after few second pop up should show to you with. After you see it hit ok
+![nineth step](https://github.com/stepan1pijacek/Digital-Electronics1/blob/main/LABS/03-vivado/images/9.png)
+
+After completing all thise steps we need to add simulation source file which is done like this
+
+Click file
+
+![tenth step](https://github.com/stepan1pijacek/Digital-Electronics1/blob/main/LABS/03-vivado/images/10.png)
+and click add Sourcess
+
+Pop up should show up with three options. Choose "add or create simulation sources"
+![eleventh step](https://github.com/stepan1pijacek/Digital-Electronics1/blob/main/LABS/03-vivado/images/11.png)
+
+Now create simulation file
+![step](https://github.com/stepan1pijacek/Digital-Electronics1/blob/main/LABS/03-vivado/images/12.png)
+
+This is important, dont forget to set file as VHDL and before file name ad <b>tb_</b> as shown in the image
+![step](https://github.com/stepan1pijacek/Digital-Electronics1/blob/main/LABS/03-vivado/images/13.png)
+
+And after this we are done look and sources and if they match this image we are done
+![finale](https://github.com/stepan1pijacek/Digital-Electronics1/blob/main/LABS/03-vivado/images/done.png)
