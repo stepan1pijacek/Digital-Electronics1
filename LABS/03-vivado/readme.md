@@ -1,3 +1,4 @@
+# MUX 2bit 4 to 1
 ## Preparation done at home
 
 | **LED** | **Connection** | **Switch** | **Connection** | 
@@ -73,3 +74,6 @@ end process p_stimulus;
 ## Screenshot of the simulation
 
 ![MUX 2bit 4to1 simulation](https://github.com/stepan1pijacek/Digital-Electronics1/blob/main/LABS/03-vivado/images/simulationSceenshot.png)
+
+
+# VIVADO tutorial
