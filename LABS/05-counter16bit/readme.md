@@ -59,3 +59,40 @@ p_stimulus : process
         wait;
     end process p_stimulus;
 ```
+
+## Simulation output
+
+![simulation1](https://github.com/stepan1pijacek/Digital-Electronics1/blob/main/LABS/05-counter16bit/images/prvniSimulace.png)
+
+## Listing of `top.vhd`
+
+```vhdl
+entity top is
+    Port ( 
+           CLK100MHz    : in STD_LOGIC;
+           BTNC         : in STD_LOGIC;
+           SW           : in STD_LOGIC_VECTOR (1 - 1 downto 0);
+           -- prepsat na 16 -1 downto 0 a nakopirovat si clock_enable a cnt_up_down16bit
+           LED          : out STD_LOGIC_VECTOR (4 - 1 downto 0);
+           CA           : out STD_LOGIC;
+           CB           : out STD_LOGIC;
+           CC           : out STD_LOGIC;
+           CD           : out STD_LOGIC;
+           CE           : out STD_LOGIC;
+           CF           : out STD_LOGIC;
+           CG           : out STD_LOGIC;
+           AN           : out STD_LOGIC_VECTOR (8 - 1 downto 0));
+end top;
+
+bin_cnt0 : entity work.cnt_up_down
+        generic map(
+          g_CNT_WIDTH => 4   
+        )
+        port map(
+          clk      => CLK100MHz,
+          reset    => BTNC,
+          en_i     => s_en,
+          cnt_up_i => SW(0),
+          cnt_o    => s_cnt
+        );
+```
