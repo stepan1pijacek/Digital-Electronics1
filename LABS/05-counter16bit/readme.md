@@ -96,3 +96,7 @@ bin_cnt0 : entity work.cnt_up_down
           cnt_o    => s_cnt
         );
 ```
+
+## `top.vhd` image
+
+![top image](https://github.com/stepan1pijacek/Digital-Electronics1/blob/main/LABS/05-counter16bit/images/161062025_883233572510928_5686221922828878968_n.png)
