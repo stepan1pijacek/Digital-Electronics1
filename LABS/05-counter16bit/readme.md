@@ -2,6 +2,9 @@
 
 ## Preparation task
 
+![connction image](https://github.com/stepan1pijacek/Digital-Electronics1/blob/main/LABS/05-counter16bit/160996629_758746991301575_7141631510683950224_n.png)
+
+
  | **Time interval** | **Number of clk periods** | **Number of clk periods in hex** | **Number of clk periods in binary** |
  | :-: | :-: | :-: | :-: |
  | 2&nbsp;ms | 200 000 | `x"3_0d40"` | `b"0011_0000_1101_0100_0000"` |
