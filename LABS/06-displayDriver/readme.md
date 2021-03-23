@@ -146,3 +146,5 @@ end architecture testbench;
 ![waveforms](https://github.com/stepan1pijacek/Digital-Electronics1/blob/main/LABS/06-displayDriver/images/Sn%C3%ADmek%20obrazovky%202021-03-23%20173803.png)
 
 ## Task 3
+
+![drawing](https://github.com/stepan1pijacek/Digital-Electronics1/blob/main/LABS/06-displayDriver/images/Sn%C3%ADmek%20obrazovky%202021-03-23%20175714.png)
