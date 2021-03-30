@@ -500,3 +500,5 @@ end process p_stimulus;
 ![t_rst](https://github.com/stepan1pijacek/Digital-Electronics1/blob/main/LABS/07-ffs/images/t_rst.png)
 
 # Shift register
+
+![shift register](https://github.com/stepan1pijacek/Digital-Electronics1/blob/main/LABS/07-ffs/images/Sn%C3%ADmek%20obrazovky%202021-03-30%20210526.png)
