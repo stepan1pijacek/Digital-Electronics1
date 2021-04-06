@@ -139,4 +139,4 @@ p_output_fsm : process(s_state)
 
 ### Screenshots of the simulation
 
-![tlc_waveform](images/Snímek obrazovky 2021-04-06 184930.png)
+![tlc_waveform](https://github.com/stepan1pijacek/Digital-Electronics1/blob/main/LABS/08-trafficLight/images/Sn%C3%ADmek%20obrazovky%202021-04-06%20184930.png)
