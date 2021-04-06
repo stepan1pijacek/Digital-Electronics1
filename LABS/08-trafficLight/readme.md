@@ -22,7 +22,7 @@
 ## Traffic light controller
 
 ### State diagram
-![smart_tlc_table](images/smart_tlc_table.png)
+
 
 ### Listing of VHDL code of sequential process `p_traffic_fsm`
 
@@ -145,7 +145,7 @@ p_output_fsm : process(s_state)
 ### SMART tlc
 
 ### State table
-
+![smart_tlc_table](images/smart_tlc_table.png)
 
 ### Listing of VHDL code of sequential process p_smart_traffic_fsm
 
