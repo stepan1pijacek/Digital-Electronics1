@@ -23,6 +23,7 @@
 
 ### State diagram
 
+![tlc_stateDiagram](https://github.com/stepan1pijacek/Digital-Electronics1/blob/main/LABS/08-trafficLight/images/tlc_StateDiagram.png)
 
 ### Listing of VHDL code of sequential process `p_traffic_fsm`
 
@@ -146,6 +147,12 @@ p_output_fsm : process(s_state)
 
 ### State table
 ![smart_tlc_table](images/smart_tlc_table.png)
+
+
+
+### State diagram
+
+![smart_tlc_diagram](https://github.com/stepan1pijacek/Digital-Electronics1/blob/main/LABS/08-trafficLight/images/tlc_smart_stateDiagram.png)
 
 ### Listing of VHDL code of sequential process p_smart_traffic_fsm
 
